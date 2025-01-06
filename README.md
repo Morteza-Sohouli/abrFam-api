@@ -93,7 +93,7 @@ X-API-KEY: example-token
 
 ####  دریافت پلن ها
 
-```http
+```
   GET https://api.abrfam.ir/plans
 ```
 </div>
