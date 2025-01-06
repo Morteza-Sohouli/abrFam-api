@@ -11,14 +11,14 @@ X-API-KEY: example-token
 ## متد ها
 #### دریافت سرور های ساخته شده
 
-```http
+```
   GET https://api.abrfam.ir/servers
 ```
 
 
 #### دریافت یک سرور مشخص
 
-```http
+```
   GET https://api.abrfam.ir/servers/${id}
 ```
 
@@ -29,7 +29,7 @@ X-API-KEY: example-token
 
 
 #### ساخت سرور
-```http
+```
   POST https://api.abrfam.ir/servers/create
 ```
 | متد  | پارامتر | تایپ     | توضیحات                       |
@@ -40,7 +40,7 @@ X-API-KEY: example-token
 
 #### تغییر پسورد سرور
 
-```http
+```
   POST https://api.abrfam.ir/servers/${id}/resetPassword
 ```
 | متد  | پارامتر | تایپ     | توضیحات                       |
@@ -49,7 +49,7 @@ X-API-KEY: example-token
 
 ### خاموش کردن سرور
 
-```http
+```
   POST https://api.abrfam.ir/servers/${id}/powerOffServer
 ```
 | متد  | پارامتر | تایپ     | توضیحات                       |
@@ -58,7 +58,7 @@ X-API-KEY: example-token
 
 ### روشن کردن سرور
 
-```http
+```
   POST https://api.abrfam.ir/servers/${id}/powerOnServer
 ```
 | متد  | پارامتر | تایپ     | توضیحات                       |
@@ -68,7 +68,7 @@ X-API-KEY: example-token
 
 ### حذف سرور
 
-```http
+```
   DELETE https://api.abrfam.ir/servers/${id}
 ```
 | متد  | پارامتر | تایپ     | توضیحات                       |
@@ -77,13 +77,13 @@ X-API-KEY: example-token
 
 ####  دریافت نام سیستم عامل ها
 
-```http
+```
   GET https://api.abrfam.ir/os
 ```
 
 #### دریافت ورژن های یک سیستم عامل
 
-```http
+```
   GET https://api.abrfam.ir/os/${os}
 ```
 
